@@ -1,0 +1,35 @@
+/*------------------------ navbar ------------------------*/
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+a.navbar-brand {
+    height: 150px;
+    width: 150px;
+    background-image: url(/milestone-project-new-version/assets/images/me-flower.jpg);
+    background-size: contain;
+}
+
+a.nav-link.hvr-rectangle-out {
+    padding: 3rem!important;
+}
+/*------------------------ carousel ------------------------*/
+
+.carousel-item {
+    height: 50vh;
+}
+/*------------------------ body-1 ------------------------*/
+
+.body-1-right {
+    text-align: center;
+
+}
+/*------------------------ hover.css ------------------------*/
+
+.hvr-rectangle-out {
+    background: transparent;
+}
