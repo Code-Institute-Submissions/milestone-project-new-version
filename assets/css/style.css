@@ -1,3 +1,20 @@
+/*------------------------ gutters/line-breaks ------------------------*/
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.line-break-big {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 25px 45vw;
+}
+
+/*------------------------ colors ------------------------*/
+
+.lightgrey {
+    background-color: lightgray;
+}
 /*------------------------ navbar ------------------------*/
 
 .navbar {
@@ -6,22 +23,42 @@
     border: 0;
 }
 
+.nav-link {
+    padding: 0;
+}
+
 
 a.navbar-brand {
     height: 150px;
     width: 150px;
     background-image: url(/milestone-project-new-version/assets/images/me-flower.jpg);
     background-size: contain;
+    padding: 0;
+    margin: 0;
 }
 
-a.nav-link.hvr-rectangle-out {
-    padding: 3rem!important;
+.nav-item-text {
+    padding: 0;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) {
+    a.nav-link.hvr-rectangle-out {
+        height: 150px;
+        width: 150px;
+
+    }
+
+    .nav-item-text {
+        padding-top:55px;
+    }
 }
 /*------------------------ carousel ------------------------*/
 
 .carousel-item {
     height: 50vh;
 }
+
 /*------------------------ body-1 ------------------------*/
 
 .body-1-right {
