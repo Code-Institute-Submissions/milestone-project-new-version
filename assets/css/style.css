@@ -1,72 +1,83 @@
+/*------------------------ standard formatting ------------------------*/
+
+body {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.page1 {
+    background-image: url(/milestone-project-new-version/assets/images/long-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.page2 {
+    background-image: url(/milestone-project-new-version/assets/images/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
 /*------------------------ gutters/line-breaks ------------------------*/
 
 .no-padding {
     padding: 0 !important;
 }
 
-.line-break-big {
-    border: 5px solid black;
+.no-margin {
+    margin: 0 !important;
+}
+
+div.line-break-big {
+    border: 0.5vh solid darkcyan;
     border-radius: 10px;
-    margin: 25px 45vw;
+    margin: 5vh 40vw;
+    background-color: darkcyan;
 }
 
-/*------------------------ colors ------------------------*/
+/*------------------------ colors/text-transform ------------------------*/
 
-.lightgrey {
-    background-color: lightgray;
-}
-/*------------------------ navbar ------------------------*/
-
-.navbar {
-    margin: 0;
-    padding: 0;
-    border: 0;
+.whitefont {
+    color: white;
 }
 
-.nav-link {
-    padding: 0;
-}
-
-
-a.navbar-brand {
-    height: 150px;
-    width: 150px;
-    background-image: url(/milestone-project-new-version/assets/images/me-flower.jpg);
-    background-size: contain;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item-text {
-    padding: 0;
+.uppercase {
     text-transform: uppercase;
 }
 
-@media only screen and (min-width: 992px) {
-    a.nav-link.hvr-rectangle-out {
-        height: 150px;
-        width: 150px;
+/*--------------------------- Segmentation -----------------------------*/
 
-    }
+/*------------------------ navbar ------------------------*/
 
-    .nav-item-text {
-        padding-top:55px;
-    }
-}
+
+
 /*------------------------ carousel ------------------------*/
 
 .carousel-item {
-    height: 50vh;
+    height: 33vh;
 }
 
-/*------------------------ body-1 ------------------------*/
+/*------------------------ horizontal images ------------------------*/
 
-.body-1-right {
-    text-align: center;
+.image-horizontal{
 
 }
+
+.image-horizontal-img {
+   
+}
+
+/*------------------------ horizontal text ------------------------*/
+
+.text-horizontal {
+
+}
+
 /*------------------------ hover.css ------------------------*/
 
-.hvr-rectangle-out {
-    background: transparent;
-}
