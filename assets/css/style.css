@@ -1,7 +1,7 @@
 /*------------------------ standard formatting ------------------------*/
 
 body {
-    font-size: 20px;
+    font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-image: url(/milestone-project-new-version/assets/images/lasse-background.png);
@@ -30,19 +30,34 @@ div.line-break-big {
 
 /*------------------------ colors/text-transform ------------------------*/
 
-.whitefont {
+.greyfont {
     color: white;
 }
 
 .uppercase {
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
+
 
 /*--------------------------- Segmentation -----------------------------*/
 
 /*------------------------ navbar ------------------------*/
 
+.nav-link {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
+.nav-link-language   {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.background-transparent {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
 
 /*------------------------ carousel ------------------------*/
 
@@ -51,11 +66,19 @@ div.line-break-big {
 }
 /*------------------------ horizontal images ------------------------*/
 
+.margin-horizontal {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 .image-horizontal-img{
     width: 100%;
     height: 13vh;
 }
 
+.view-height {
+    height: 15vh;
+}
 
 
 /*------------------------ horizontal text ------------------------*/
@@ -63,13 +86,23 @@ div.line-break-big {
 .anchor-horizontal {
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .anchor-horizontal:hover {
     text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
 
 /*------------------------ media queries ------------------------*/
 
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 50vh;;
+    }
+}
