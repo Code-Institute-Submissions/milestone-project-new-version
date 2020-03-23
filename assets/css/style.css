@@ -2,15 +2,26 @@
 
 body {
     font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    background-image: url(/milestone-project-new-version/assets/images/lasse-background.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    background-image: url(/milestone-project-new-version/assets/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+}
 /*------------------------ gutters/line-breaks ------------------------*/
 
 .no-padding {
@@ -21,16 +32,22 @@ body {
     margin: 0 !important;
 }
 
-div.line-break-big {
+.line-break-big {
     border-radius: 10px;
     margin: 5vh 40vw;
     padding: .5vh 10vw;
     background-color: transparent;
 }
 
+.line-break-small {
+    border-radius: 10px;
+    margin: 5vh 40vw;
+    background-color: transparent;
+}
+
 /*------------------------ colors/text-transform ------------------------*/
 
-.greyfont {
+.whitefont {
     color: white;
 }
 
@@ -39,13 +56,20 @@ div.line-break-big {
     letter-spacing: 2px;
 }
 
+.background-transparent {
+    background-color:rgba(0, 0, 0, 0.5);
+}
 
-/*--------------------------- Segmentation -----------------------------*/
+.border-radius {
+    border-radius: 20px;
+}
 
 /*------------------------ navbar ------------------------*/
 
-.nav-link {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.navbar-toggler {
+    height: 50px;
+    border: 0;
+    background-color: white; 
 }
 
 .nav-link-language   {
@@ -54,15 +78,36 @@ div.line-break-big {
     font-size: 15px;
 }
 
-.background-transparent {
-    background-color:rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+.flag   {
+    width:30px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.nav-text {
+    font-size: 15px;
+}
+
+.nav-text:hover {
+    color: red;
+}
+
+.flag-text {
+    font-size: 15px;
+}
+
+.flag-text:hover {
+    color: red;
 }
 
 /*------------------------ carousel ------------------------*/
 
 .carousel-item {
     height: 33vh;
+}
+
+.border-radius-carousel {
+    border-radius: 40px;
 }
 /*------------------------ horizontal images ------------------------*/
 
@@ -76,9 +121,6 @@ div.line-break-big {
     height: 13vh;
 }
 
-.view-height {
-    height: 15vh;
-}
 
 
 /*------------------------ horizontal text ------------------------*/
@@ -97,12 +139,64 @@ div.line-break-big {
     font-weight: bold;
 }
 
+.horizontal-text {
+    line-height: 30px;
+}
 
+/*------------------------ Form ----------------------- */
 
+.btn-danger {
+    background-color: red;
+}
+
+.form-side {
+    font-size: 20px;
+}
+
+/*------------------------ Footer ------------------------*/
+
+.footer-heading {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.social-links {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.footer-anchor:hover {
+    color: red;
+    font-size: 30px;
+}
+
+.footer-text {
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.social-links {
+    color: white;
+    text-decoration: none;
+}
 /*------------------------ media queries ------------------------*/
 
 @media (min-width: 992px) {
     .carousel-item {
         height: 50vh;;
+    }
+
+    .footer-heading {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+
+    .nav-text {
+        font-size: 20px;
     }
 }
