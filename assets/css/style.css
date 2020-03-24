@@ -64,7 +64,7 @@ a:hover {
     background-color:rgba(0, 0, 0, 0.5);
 }
 
-.border-radius {
+.border-radius-img {
     border-radius: 20px;
 }
 
@@ -83,8 +83,8 @@ a:hover {
 }
 
 .flag   {
-    width:30px;
-    height: 25px;
+    width:25px;
+    height: 20px;
     margin-top: 5px;
 }
 
@@ -101,6 +101,10 @@ a:hover {
 }
 
 .flag-text:hover {
+    color: red;
+}
+
+.anchor-nav:hover {
     color: red;
 }
 
@@ -138,7 +142,7 @@ a:hover {
 .anchor-horizontal:hover {
     text-transform: uppercase;
     text-decoration: none;
-    color: whitesmoke;
+    color: red;
     font-size: 25px;
     font-weight: bold;
 }
@@ -160,29 +164,25 @@ a:hover {
 /*------------------------ Footer ------------------------*/
 
 .footer-heading {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
-}
-
-.social-links {
-    line-height: 50px;
-    vertical-align: middle;
+    padding-top: 10px;
 }
 
 .footer-anchor:hover {
     color: red;
-    font-size: 30px;
 }
 
 .footer-text {
     font-size: 10px;
-    line-height: 25px;
+    padding-top: 10px;
 }
 
 .social-links {
     color: whitesmoke;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 
@@ -191,7 +191,7 @@ a:hover {
 .heading-linked-page {
     text-transform: uppercase;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 .heading-behandling {
@@ -215,16 +215,20 @@ a:hover {
 .extra-padding {
     padding: 5px;
 }
+
+.linked-page-anchor {
+    text-transform: uppercase;
+}
+
+.linked-page-anchor:hover {
+    color: red;
+    text-transform: uppercase;
+}
 /*------------------------ media queries ------------------------*/
 
 @media (min-width: 992px) {
     .carousel-item {
         height: 50vh;;
-    }
-
-    .footer-heading {
-        font-size: 25px;
-        padding-top: 10px;
     }
 
     .footer-text {
@@ -233,5 +237,11 @@ a:hover {
 
     .nav-text {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .border-radius {
+        border-radius: 20px;
     }
 }
