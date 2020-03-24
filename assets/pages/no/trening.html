@@ -9,100 +9,213 @@
     <script src="https://kit.fontawesome.com/efe33daf5d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/milestone-project-new-version/assets/css/hover-min.css">
     <link rel="stylesheet" href="/milestone-project-new-version/assets/css/style.css">
+
+    <script src="/milestone-project-new-version/assets/js/index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>John Sletvold-Hafenrichter</title>
 </head>
 
 <body>
 
+    <div class="min-vh-95">
+        <!----------------------------------- navbar --------------------------------->
+        <nav class="container navbar navbar-expand-lg sticky-top navbar-light">
+            <div class="row">
+                <a class="col-4 col-lg-2 navbar-brand align-self-center"
+                    href="/milestone-project-new-version/index.html">
+                    <img src="/milestone-project-new-version/assets/images/me-flower.jpg" alt="brand logo"
+                        class="img-fluid rounded-circle">
+                </a>
 
-    <!----------------------------------- navbar --------------------------------->
-    <nav class="container navbar navbar-expand-lg sticky-top navbar-light">
-        <div class="row">
-            <a class="col-4 col-lg-2 navbar-brand" href="/milestone-project-new-version/index.html">
-                <img src="/milestone-project-new-version/assets/images/me-flower.jpg" alt="brand logo"
-                    class="img-fluid rounded-circle">
-            </a>
-            <button class="col-6 justify-content-end navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"> <i class="fas fa-bars" style="color: #fff; font-size: 28px;"></i>
-                </span>
-            </button>
-            <div class="col align-self-center">
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul class="row navbar-nav text-center background-transparent">
-                        <li class="col-12 col-lg-3 nav-item active align-self-center">
-                            <a class="nav-link"
-                                href="/milestone-project-new-version/assets/pages/no/behandling.html"><span
-                                    class="sr-only">(current)</span>
-                                <p class="greyfont uppercase">Behandling</p>
-                            </a>
-                        </li>
-                        <li class="col-12 col-lg-2 nav-item align-self-center">
-                            <a class="nav-link" href="/milestone-project-new-version/assets/pages/no/trening.html">
-                                <p class="greyfont uppercase">Trening</p>
-                            </a>
-                        </li>
-                        <li class="col-12 col-lg-3 nav-item align-self-center">
-                            <a class="nav-link" href="/milestone-project-new-version/assets/pages/no/kosthold.html">
-                                <p class="greyfont uppercase">Kosthold</p>
-                            </a>
-                        </li>
-                        <li class="col-12 col-lg-3 nav-item align-self-center">
-                            <a class="nav-link" href="/milestone-project-new-version/assets/pages/no/veiledning.html">
-                                <p class="greyfont uppercase">Veiledning</p>
-                            </a>
-                        </li>
-                        <li class="col-12 col-lg-1 nav-item">
-                            <div class="row">
-                                <div class="col-4 col-lg-12">
-                                    <a class="nav-link nav-link-language"
-                                        href="/milestone-project-new-version/assets/pages/en/enindex.html">
-                                        <p class="greyfont uppercase">En</p>
-                                    </a>
+                <div class="col align-self-center background-transparent border-radius">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="row navbar-nav text-center">
+                            <li class="col-12 col-lg nav-item active align-self-center">
+                                <a class="nav-link"
+                                    href="/milestone-project-new-version/assets/pages/no/behandling.html"><span
+                                        class="sr-only">(current)</span>
+                                    <p class="whitefont uppercase nav-text">Behandling</p>
+                                </a>
+                            </li>
+                            <li class="col-12 col-lg nav-item align-self-center">
+                                <a class="nav-link" href="/milestone-project-new-version/assets/pages/no/trening.html">
+                                    <p class="whitefont uppercase nav-text">Trening</p>
+                                </a>
+                            </li>
+                            <li class="col-12 col-lg nav-item align-self-center">
+                                <a class="nav-link" href="/milestone-project-new-version/assets/pages/no/kosthold.html">
+                                    <p class="whitefont uppercase nav-text">Kosthold</p>
+                                </a>
+                            </li>
+                            <li class="col-12 col-lg nav-item align-self-center">
+                                <a class="nav-link"
+                                    href="/milestone-project-new-version/assets/pages/no/veiledning.html">
+                                    <p class="whitefont uppercase nav-text">Veiledning</p>
+                                </a>
+                            </li>
+                            <li class="col-12 col-lg nav-item">
+                                <div class="row">
+                                    <div class="col-4 col-lg-12">
+                                        <a class="nav-link nav-link-language"
+                                            href="/milestone-project-new-version/assets/pages/en/enindex.html">
+                                            <img src="/milestone-project-new-version/assets/images/flags/the-united-states-flag-icon-free-download.jpg"
+                                                alt="english flag" class="flag">
+                                            <p class="whitefont uppercase flag-text">En</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-4 col-lg-12">
+                                        <a class="nav-link nav-link-language"
+                                            href="/milestone-project-new-version/index.html">
+                                            <img src="/milestone-project-new-version/assets/images/flags/norway-flag-icon-free-download.jpg"
+                                                alt="norwegian flag" class="flag">
+                                            <p class="whitefont uppercase flag-text">No</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-4 col-lg-12">
+                                        <a class="nav-link nav-link-language"
+                                            href="/milestone-project-new-version/assets/pages/ger/gerindex.html">
+                                            <img src="/milestone-project-new-version/assets/images/flags/germany-flag-icon-free-download.jpg"
+                                                alt="german flag" class="flag">
+                                            <p class="whitefont uppercase flag-text">De</p>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="col-4 col-lg-12">
-                                    <a class="nav-link nav-link-language"
-                                        href="/milestone-project-new-version/index.html">
-                                        <p class="greyfont uppercase">No</p>
-                                    </a>
-                                </div>
-                                <div class="col-4 col-lg-12">
-                                    <a class="nav-link nav-link-language"
-                                        href="/milestone-project-new-version/assets/pages/ger/gerindex.html">
-                                        <p class="greyfont uppercase">Ger</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="col-2 navbar-toggler align-self-center" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fas fa-bars"></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="line-break-small"></div>
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="heading-linked-page background-transparent border-radius-carousel">Våre treningsalternativer</h2>
+            </div>
+        </div>
+
+        <div class="line-break-small"></div>
+
+        <!----------------------------------- linked-page-image --------------------------------->
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="/milestone-project-new-version/assets/images/training.jpg"
+                    class="d-block w-50 h-50 border-radius-carousel" alt="treatment picture">
+            </div>
+        </div>
+
+        <div class="line-break-small"></div>
+
+        <!----------------------------------- linked-page-text --------------------------------->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center heading-behandling">Personlig Trening</h2> <br>
+                    <p class="text-center background-transparent border-radius extra-padding">
+                        Våre personlige trenere har ulik erfaring, utdanningsbakgrunn og spesialfelt. <br><br> De finner øvelser
+                        og
+                        treningsprogrammer som er tilrettelagt for deg, samtidig som de motiverer og støtter deg
+                        underveis i
+                        treningen. <br><br>Uansett hvilket utgangspunkt du har i dag eller hvilket mål du har for treningen -
+                        har vi
+                        en
+                        personlig trener som vil hjelpe deg å få det til!</p>
+                </div>
+                <div class="col">
+                    <h2 class="text-center heading-behandling">Prisliste</h2> <br>
+                    <ul class="areas text-center background-transparent border-radius">
+                        <li> <p class="list-heading">30 min</p>
+                            30 min leksjon med din privat Trener
+
+                            FRA 300 NOK<br><br>
+
+                            Perfekt hvis du vil ha hjelp til å fokusere på noe spesielt.</li> <br>
+                        <li> <p class="list-heading">60 min</p>
+                            60 min leksjon med din privat trener
+
+                            FRA 500 NOK<br><br>
+
+                            Denne timen gir deg nok tid for å trene hele kroppen.</li> <br>
+
+                        <li> <p class="list-heading">60 min med en venn</p>
+                            60 min leksjon med din privat trener og en venn
+
+                            FRA 750 NOK<br><br>
+
+                            Du og din venn kan trene og progressere sammen!</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </nav>
 
 
-    <div class="line-break-big"></div>
 
-    <div class="container">
-        <div class="container">
-            <h2 class="h1-responsive text-center">Trening</h2>
-            <p class="w-responsive text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore,
-                natus harum cupiditate iusto
-                minima tempora, quidem eaque recusandae, quibusdam itaque accusantium labore. Molestias, delectus,
-                officiis ratione nobis natus laboriosam dolor eveniet nihil numquam ullam a, fuga totam aut quis
-                perferendis facilis amet. Consequuntur enim perferendis, cum nostrum accusantium quia sit, dolorum
-                quisquam ut velit id. Tenetur, totam similique? Fugiat optio odit possimus velit labore. Accusantium
-                ipsum est totam minima. Vel corrupti nesciunt soluta, ullam animi inventore reprehenderit tempora
-                sunt officiis doloribus est eos nemo. Autem ad saepe, reprehenderit repellat suscipit unde maiores
-                porro! Facere ab sunt eos perferendis eligendi veritatis.</p>
-        </div>
+        <div class="d-none d-lg-block line-break-big"></div>
+        <div class="line-break-small d-lg-none"></div>
+
     </div>
+    <!----------------------------------- Footer --------------------------------->
 
-    <div class="line-break-big"></div>
+    <footer class="container-fluid background-transparent align-self-center footer">
+        <div class="row d-none d-lg-flex">
+            <div class="col col-lg-4">
+                <h2 class="footer-heading text-center uppercase">Adresse</h2>
+            </div>
+            <div class="col col-lg-4">
+                <h2 class="footer-heading text-center uppercase">Kontaktinformasjon</h2>
+            </div>
+            <div class="col col-lg-4">
+                <h2 class="footer-heading text-center uppercase">sosialt</h2>
 
-
-
+            </div>
+        </div>
+        <div class="row align-self-center">
+            <div class="col">
+                <p class="footer-text text-center align-self-center">Finstadjordet <br> 0256 Oslo</p>
+            </div>
+            <div class="col">
+                <p class="footer-text text-center">aleks.whirlpool@gmail.com </br> +47 651 23 524</p>
+            </div>
+            <div class="col">
+                <ul class="list-inline text-center social-links">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/john.sletvoldhafenrichter" class="footer-anchor"
+                            target="_blank">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/Mediato32898222" class="footer-anchor" target="_blank">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/john-sletvold-hafenrichter" class="footer-anchor"
+                            target="_blank">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/johnsletvoldhafenrichter" class="footer-anchor" target="_blank">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -121,6 +234,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>

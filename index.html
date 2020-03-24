@@ -9,6 +9,9 @@
     <script src="https://kit.fontawesome.com/efe33daf5d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="/milestone-project-new-version/assets/js/index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>John Sletvold-Hafenrichter</title>
 </head>
 
@@ -103,7 +106,7 @@
                 <div class="carousel-item active">
                     <a href="/milestone-project-new-version/assets/pages/no/behandling.html">
                         <img class="d-block w-100 h-100"
-                            src="/milestone-project-new-version/assets/images/treatment.jpg" alt="First slide">
+                            src="/milestone-project-new-version/assets/images/treatment-2.jpg" alt="First slide">
                     </a>
                 </div>
                 <div class="carousel-item">
@@ -148,7 +151,7 @@
         <div class="row ">
             <div class="col-6 col-lg-3">
                 <a class="anchor-horizontal" href="/milestone-project-new-version/assets/pages/no/behandling.html">
-                    <img src="/milestone-project-new-version/assets/images/treatment.jpg"
+                    <img src="/milestone-project-new-version/assets/images/treatment-2.jpg"
                         class="img-fluid rounded-circle" alt="img1">
                     <div class="row justify-content-center">
                         <p class="horizontal-text">Behandling</p>
@@ -194,22 +197,33 @@
     <!------------------------------------ about us section ----------------------------->
 
     <div class="container background-transparent border-radius">
-        <h2 class="h1-responsive text-center">Om Oss</h2>
-        <p class="text-center w-responsive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sunt
-            cupiditate officiis blanditiis accusamus natus. Ratione nulla totam soluta, ea earum ex, sint ipsum
-            consequuntur molestias corporis doloremque voluptates, saepe dolorem praesentium deserunt quae. Voluptate ea
-            voluptatem commodi repudiandae animi similique minima ab, veniam quo iure labore perspiciatis fuga
-            aspernatur dolore vel officiis maxime voluptates alias placeat voluptas quas! Nulla unde quisquam architecto
-            quaerat ut quo hic itaque quis quam culpa facilis minima mollitia, corrupti est cupiditate sequi nemo
-            dolorum sapiente ducimus aut, nesciunt neque. Dignissimos dolorum quod dolores accusantium corrupti minima
-            unde possimus eligendi, maxime repellat eius cupiditate? Alias!</p>
+        <h2 class="h1-responsive text-center">Om Oss</h2><br>
+        <p class="text-center w-responsive">Vi er et team på 3 stykker som har drevet med naprapatarbeid i flere år! <br>
+
+            Vårt mål er å gjøre deg frisk snarest mulig og gi deg den hjelpen du trenger når du trenger det. <br><br>
+
+            I tillegg til rygg- og nakkesmerter, jobber vi blant annet med hodepine, krystallsyke/svimmelhet, smerter i
+            skulder og arm, hoftesmerter, knær og fotproblematikk.
+            Ved behov jobber våre naprapater også med smertebehandling med nåler.<br><br>
+
+            Vi har også trykkbølge på klinikken, og dette er vist meget effektivt mot betennelse i muskler og sener, som
+            for eksempel ved tendinopatier som tennisalbue/musearm, akillesproblemer eller plantar fascitt.<br><br>
+
+            For oss er et langsiktig resultat og god livskvalitet viktig. Derfor prøver vi til enhver tid å holde oss
+            oppdatert på det seneste i fagområdet, for å kunne hjelpe våre pasienter mest mulig.<br>
+            Dessuten har vi godt samarbeid med legespesialist ved behov.<br><br>
+
+            Vår klinikk er bygget på god kommunikasjon, trivsel og kunnskap, noe du som pasient vil merke når du besøker
+            oss.<br><br>
+
+            Velkommen til oss!</p>
     </div>
 
     <div class="d-none d-lg-block line-break-big"></div>
     <div class="line-break-small d-lg-none"></div>
 
     <!----------------------------------- contact form --------------------------------->
-    <div class="container background-transparent border-radius">
+    <div class="container background-transparent border-radius" id="here">
         <section class="mb-4">
 
             <!--Section heading-->
@@ -281,7 +295,7 @@
                     </form>
 
                     <div class="text-center text-md-left">
-                        <a class="btn btn-danger" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        <a class="btn btn-danger" onclick="submit();">Send</a>
                     </div>
                     <div class="status"></div>
                 </div>
@@ -291,7 +305,7 @@
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p class="form-side">Oslo, Oslo, Norge</p>
+                            <p class="form-side">Finstadjordet 1024, <br> 0256 Oslo, Norge</p>
                         </li>
 
                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
@@ -299,7 +313,7 @@
                         </li>
 
                         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p class="form-side">Lasse@email.com</p>
+                            <p class="form-side">ola.nordmann@email.com</p>
                         </li>
                     </ul>
                 </div>
@@ -311,6 +325,10 @@
     </div>
     <!-- Contact form-->
 
+
+    <div class="d-none d-lg-block line-break-big"></div>
+    <div class="line-break-small d-lg-none"></div>
+    <!----------------------------------- Footer --------------------------------->
 
     <footer class="container-fluid background-transparent align-self-center">
         <div class="row d-none d-lg-flex">
@@ -326,13 +344,13 @@
             </div>
         </div>
         <div class="row align-self-center">
-            <div class="col col-lg-4">
-                <p class="footer-text text-center align-self-center">Skådalsveien 14B <br> 0781 Oslo</p>
+            <div class="col">
+                <p class="footer-text text-center align-self-center">Finstadjordet <br> 0256 Oslo</p>
             </div>
-            <div class="col col-lg-4">
-                <p class="footer-text text-center">john.hafenrichter@yahoo.com </br> +47 651 23 524</p>
+            <div class="col">
+                <p class="footer-text text-center">aleks.whirlpool@gmail.com </br> +47 651 23 524</p>
             </div>
-            <div class="col col-lg-4">
+            <div class="col">
                 <ul class="list-inline text-center social-links">
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/john.sletvoldhafenrichter" class="footer-anchor"
@@ -382,6 +400,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
