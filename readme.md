@@ -1,6 +1,6 @@
-#Milestone Project 1
+# Milestone Project 1
 
-#A Website for a Muscle Therapy company!
+## A Website for a Muscle Therapy company!
 
 
 This is my first milestone project. I have decided to create a webpage for a friend as a project. His firm does different health treatments.
@@ -20,7 +20,7 @@ I will be using the following CDN's and frameworks:
 - smtpjs.com
 - hover.css
 
-#UX
+## UX
 
 This project is made for a new company that is just starting to get of their feet. This webpage is simple. yet intuitive and with enough information to be able to understand what the purpose of the company is. Since this company has a lot of different people and is located in Oslo, the webpage has also been translated into different languages. 
 
@@ -35,10 +35,10 @@ The easy to use contact form is also a nice addition for people to contact the c
 
 These are my 2 wireframes that i made during the start of my project but i deviated greatly by changing the purpose and layout of the page. I had a friend that wanted a webpage and i used him as a reference in order how he would like his webpage to look and i therefore didnt create any new wireframe for the new webpage. My friend was giving me input throughout the project and i changed things after every time we reviewed the page together.
 
-https://wireframe.cc/Sqx0iU - automatic! [wireframe] (https://wireframe.cc)
-https://wireframe.cc/yWSC38 - automatic! [wireframe] (https://wireframe.cc)
+https://wireframe.cc/Sqx0iU 
+https://wireframe.cc/yWSC38 
 
-#Features
+## Features
 
 * The navbar is fixed on top and allows for ease-of-use. It is easy to understand, intuitive and fixed on the top so that you never loose your navigation. You never have to use the browser buttons in order to go anywhere on the page.
 * The carousel is also for easier navigation but at the same time offers some insight in the different things the webpage wants you to look at.
@@ -61,7 +61,7 @@ I have only used:
 * Fontawesome
     * for general use of icons
 
-#Testing
+## Testing
 
 For testing purposes I had uploaded the site and put it live almost immediately so that i could send the link to 2 of my friends. They checked it throughout my time coding and always when i asked them to. They tried pressing and going on different stuff and gave me feedback so that i could change and fix things. This was of enourmous help since they often came with new ideas or saw problems that i didn't notice.
 
@@ -75,14 +75,14 @@ My project is based mainly on bootstrap code and is therefore very responsive, a
 
 Since i am writing this code on visual studio, I always tested my changes before commiting them to github.
 
-#Deployment
+## Deployment
 
 I created my repository on github and then immediately started hosting it on github pages since i sent that link to friends in order for them to give me feedback.
 
 * there are no different versions. Only one old version which i abandoned when i changed the idea of my project.
 * There are also no differences since this is the only version that i used. There are only differences between my local version on visual code and my github pages version before i commit the changes.
 
-#Credits
+## Credits
 
 The photos used in this site were obtained from:
 
