@@ -46,9 +46,12 @@ a:hover {
 }
 
 .min-vh-95 {
-    min-height: 95vh
+    min-height: 98vh
 }
 
+.h1-responsive {
+    padding-top: 8px;
+}
 /*------------------------ colors/text-transform ------------------------*/
 
 .whitefont {
@@ -57,18 +60,30 @@ a:hover {
 
 .uppercase {
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 .background-transparent {
     background-color:rgba(0, 0, 0, 0.5);
 }
 
+
 .border-radius-img {
     border-radius: 20px;
 }
 
+.background-nice {
+    background-color: rgba(0,255,236, 0.7);
+    border-radius: 20px;
+}
+
 /*------------------------ navbar ------------------------*/
+
+.padding-left-right-none {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 .navbar-toggler {
     height: 50px;
@@ -90,6 +105,7 @@ a:hover {
 
 .nav-text {
     font-size: 15px;
+    margin: 0;
 }
 
 .nav-text:hover {
@@ -98,6 +114,7 @@ a:hover {
 
 .flag-text {
     font-size: 15px;
+    margin: 0;
 }
 
 .flag-text:hover {
@@ -106,6 +123,12 @@ a:hover {
 
 .anchor-nav:hover {
     color: red;
+}
+
+.collapse.show {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
 }
 
 /*------------------------ carousel ------------------------*/

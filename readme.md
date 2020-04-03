@@ -82,6 +82,8 @@ I created my repository on github and then immediately started hosting it on git
 * there are no different versions. Only one old version which i abandoned when i changed the idea of my project.
 * There are also no differences since this is the only version that i used. There are only differences between my local version on visual code and my github pages version before i commit the changes.
 
+Link to the deployed version: https://johnsletvoldhafenrichter.github.io/milestone-project-new-version/
+
 ## Credits
 
 The photos used in this site were obtained from:
