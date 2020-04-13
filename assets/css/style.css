@@ -50,7 +50,7 @@ a:hover {
 }
 
 .h1-responsive {
-    padding-top: 8px;
+    padding-top: 12px;
 }
 /*------------------------ colors/text-transform ------------------------*/
 
@@ -186,6 +186,11 @@ a:hover {
 
 .form-side {
     font-size: 20px;
+    padding-top: 15px;
+}
+
+.padding-form {
+    padding-top: 15px;
 }
 
 /*------------------------ Footer ------------------------*/

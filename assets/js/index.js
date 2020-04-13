@@ -1,5 +1,5 @@
 //index.js  
-function submit() {
+function submitForm() {
 	Email.send({
 		SecureToken : "db40a57d-4ad8-4807-a01d-267cd49a34bc",
 		To : 'aleks.whirlpool@gmail.com',
@@ -10,4 +10,3 @@ function submit() {
 		message => alert("mail sent successfully")
 	);
 }
-

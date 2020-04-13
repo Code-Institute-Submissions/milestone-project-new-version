@@ -21,7 +21,8 @@
     <!----------------------------------- navbar --------------------------------->
     <nav class="container navbar navbar-expand-lg sticky-top navbar-light">
         <div class="row">
-            <a class="col-4 col-lg-2 navbar-brand align-self-center" href="/milestone-project-new-version/assets/pages/de/gerindex.html">
+            <a class="col-4 col-lg-2 navbar-brand align-self-center"
+                href="/milestone-project-new-version/assets/pages/de/gerindex.html">
                 <img src="/milestone-project-new-version/assets/images/me-flower.jpg" alt="brand logo"
                     class="img-fluid rounded-circle">
             </a>
@@ -237,97 +238,89 @@
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Kontaktieren Sie uns</h2>
             <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">Haben Sie irgendwelche Fragen? <br> Bitte nehmen sie Kontakt mit
+            <p class="text-center w-responsive mx-auto mb-5">Haben Sie irgendwelche Fragen? <br> Bitte nehmen sie
+                Kontakt mit
                 uns auf und wir werden ihnen schnellst möglich antworten.</p>
-
-            <div class="row">
+            <!--Grid row-->
+            <div class=" row">
 
                 <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control"
-                                        placeholder="Ihr Name">
-                                    <label for="name"></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control"
-                                        placeholder="Ihre Epostadresse">
-                                    <label for="email"></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control"
-                                        placeholder="Betreff">
-                                    <label for="subject"></label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-12">
-
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea" placeholder="Ihre Nachricht"></textarea>
-                                    <label for="message"></label>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                    </form>
-
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-danger" onclick="submit();">Send</a>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Ihr Name" required>
+                        <label for="name"></label>
                     </div>
-                    <div class="status"></div>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p class="form-side">Finstadjordet 1024, <br> 0256 Oslo, Norwegen</p>
-                        </li>
-
-                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                            <p class="form-side">+47 651 23 524</p>
-                        </li>
-
-                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p class="form-side">aleks.whirlpool@gmail.com</p>
-                        </li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Ihre Email"
+                            required>
+                        <label for="email"></label>
+                    </div>
                 </div>
                 <!--Grid column-->
 
             </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-0">
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Betreff"
+                            required>
+                        <label for="subject"></label>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                            placeholder="Ihre Nachricht" required></textarea>
+                        <label for="message"></label>
+                    </div>
+
+                </div>
+            </div>
+            <!--Grid row-->
+            <div class="row justify-content-center">
+
+                <div class="text-center">
+                    <a class="btn btn-danger" onclick="submitForm();">Send</a>
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="row h1-responsive">
+                <div class="col-12 col-lg-4 text-center align-self-center">
+                    <i class="padding-form fas fa-map-marker-alt fa-2x"></i>
+                    <p class="form-side">Finstadjordet 1024, Oslo, Norwegen</p>
+                </div>
+
+                <div class="col-12 col-lg-4 text-center align-self-center">
+                    <i class="padding-form fas fa-phone fa-2x"></i>
+                    <p class="form-side">+47 651 23 524</p>
+
+                </div>
+
+                <div class="col-12 col-lg-4 text-center align-self-center">
+                    <i class="padding-form fas fa-envelope fa-2x"></i>
+                    <p class="form-side">aleks.whirlpool@gmail.com</p>
+                </div>
+
+            </div>
+            <!--Grid column-->
 
         </section>
     </div>
