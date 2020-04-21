@@ -75,6 +75,22 @@ My project is based mainly on bootstrap code and is therefore very responsive, a
 
 Since i am writing this code on visual studio, I always tested my changes before commiting them to github.
 
+**Devices Used:**
+
+* Samsung Galaxy S8 – Android 8.0
+* Samsung Galaxy S10 - Android 9.0
+* Samsung Galaxy S6 – Android 7.0
+* iPhone 8 – iOS 11.4
+* Desktop Custom PC - Windows 10
+* iPad Air 2 – iOS 11.2.2 & iOS 11.4.1
+* OnePlus 6T
+
+**Browsers Used:**
+
+* Chrome
+* Firefox
+* Microsoft Edge
+
 ## Deployment
 
 I created my repository on github and then immediately started hosting it on github pages since i sent that link to friends in order for them to give me feedback.
@@ -92,5 +108,5 @@ The photos used in this site were obtained from:
 * wikipedia.org,
 * pexels.com
 
-Acknowledgement: 
+**Acknowledgement**: 
 - The idea and layout of the page comes mostly from a friend of mine called Lasse.
