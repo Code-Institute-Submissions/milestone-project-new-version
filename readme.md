@@ -51,7 +51,7 @@ A nice logo with a name of the company would make it easier to understand for pe
 navbar collapsing out from right to left while beeing under 576px screenwidth.
 I would've used hover.css but i somehow didn't think it would fit to much on the webpage.
 
-#Technologies Used
+## Technologies Used
 
 I have only used:
 * bootstrap
