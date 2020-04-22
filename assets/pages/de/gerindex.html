@@ -234,71 +234,74 @@
     <!----------------------------------- contact form --------------------------------->
     <div class="container background-transparent border-radius" id="here">
         <section class="mb-4">
+            <form id="contactus-form" onsubmit="return submitForm();">
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Kontaktieren Sie uns</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Haben Sie irgendwelche Fragen? <br> Bitte nehmen sie
+                    Kontakt mit
+                    uns auf und wir werden ihnen schnellst möglich antworten.</p>
+                <!--Grid row-->
+                <div class=" row">
 
-            <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Kontaktieren Sie uns</h2>
-            <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">Haben Sie irgendwelche Fragen? <br> Bitte nehmen sie
-                Kontakt mit
-                uns auf und wir werden ihnen schnellst möglich antworten.</p>
-            <!--Grid row-->
-            <div class=" row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Ihr Name"
+                                required>
+                            <label for="name"></label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <div class="md-form mb-0">
-                        <input type="text" id="name" name="name" class="form-control" placeholder="Ihr Name" required>
-                        <label for="name"></label>
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Ihre Email"
+                                required>
+                            <label for="email"></label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Betreff"
+                                required>
+                            <label for="subject"></label>
+                        </div>
                     </div>
                 </div>
-                <!--Grid column-->
+                <!--Grid row-->
 
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <div class="md-form mb-0">
-                        <input type="text" id="email" name="email" class="form-control" placeholder="Ihre Email"
-                            required>
-                        <label for="email"></label>
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                                placeholder="Ihre Nachricht" required></textarea>
+                            <label for="message"></label>
+                        </div>
+
                     </div>
                 </div>
-                <!--Grid column-->
+                <!--Grid row-->
+                <div class="row justify-content-center">
 
-            </div>
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="md-form mb-0">
-                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Betreff"
-                            required>
-                        <label for="subject"></label>
+                    <div class="text-center">
+                        <button class="btn btn-danger" type="submit();">Send</button>
                     </div>
                 </div>
-            </div>
-            <!--Grid row-->
+            </form>
 
-            <!--Grid row-->
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-12">
-
-                    <div class="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
-                            placeholder="Ihre Nachricht" required></textarea>
-                        <label for="message"></label>
-                    </div>
-
-                </div>
-            </div>
-            <!--Grid row-->
-            <div class="row justify-content-center">
-
-                <div class="text-center">
-                    <a class="btn btn-danger" onclick="submitForm();">Send</a>
-                </div>
-            </div>
             <!--Grid column-->
 
             <!--Grid column-->
